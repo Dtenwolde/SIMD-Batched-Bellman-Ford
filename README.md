@@ -15,7 +15,7 @@ Manuel Then (https://doi.org/10.1007/s13222-017-0261-x).
 
 ## Experimental setup
 
-The number of vertices, edges and sources can be adjusted in `main.cpp`.
+The number of vertices, edges and sources can be adjusted in `main.cpp`. The output of scalar, scalar + modified and vectorised are written to a csv file.
 
 
 
