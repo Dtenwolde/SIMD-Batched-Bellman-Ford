@@ -2,6 +2,8 @@
 
 ## Setup
 
+Compiled using Cmake and GCC 9.4.0
+
 To count the number of cpu cyles, follow the build instructions at https://www.ecrypt.eu.org/ebats/cpucycles.html
 
 In `main.cpp` you can find three different implementations of the batched Bellman-Ford algorithm published by 
@@ -15,10 +17,7 @@ Manuel Then (https://doi.org/10.1007/s13222-017-0261-x).
 
 ## Experimental setup
 
-The number of vertices, edges and sources can be adjusted in `main.cpp`. The output of scalar, scalar + modified and vectorised are written to a csv file.
-
-
-
+The number of vertices, edges and sources can be adjusted in `main.cpp`. The number of CPU cycles of scalar, scalar + modified and vectorised are written to a csv file.
 
 ## Output correctness
 
